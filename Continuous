@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, choice = 1;
+
+    while (choice == 1) {
+        printf("Enter two numbers: ");
+        scanf("%d %d", &a, &b);
+
+        printf("Product = %d\n", a * b);
+
+        printf("Do you want to continue? (1 = Yes, 0 = No): ");
+        scanf("%d", &choice);
+    }
+
+    printf("Program ended.\n");
+    return 0;
+}
