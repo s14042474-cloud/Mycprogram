@@ -1,0 +1,13 @@
+online
+#include <stdio.h>
+
+int add(int a,int b){
+    int c=a+b;
+    printf("the addition %d\n",c);
+    return c;
+}
+int main()
+{
+    add (4,3);
+    return 0;
+}
