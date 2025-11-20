@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char rajesh [10];
+    printf("enter array");
+    scanf("%s",&rajesh);
+    printf("%s",rajesh);
+    
+
+
+
+    return 0;
+}
