@@ -1,0 +1,9 @@
+online
+#include <stdio.h>
+#include<string.h>
+int main() {
+    int a=strcmp("sandy","bindu");
+    printf("%d",a);
+
+    return 0;
+}
