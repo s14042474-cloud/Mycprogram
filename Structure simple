@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    struct sandy{
+        int pen;
+        float gold;
+        char marks[10];
+    };
+    struct sandy s;
+    printf("enter pen number\n");
+    scanf("%d",&s.pen);
+    printf("enter gold amount\n");
+    scanf("%d",&s.gold);
+    printf("enter the marks\n");
+    scanf("%d",&s.marks);
+    printf("%d %f %s",s.pen,s.gold,s.marks);
+
+    return 0;
+}
