@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+enum week{
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+};
+int main(){
+    enum week today;
+    today=Thursday;
+    printf("%d",today);
+}
+    return 0;
+}
