@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    union sandy{
+        int age;
+        float mark;
+    
+    };
+union sandy s;
+s.age=10;
+printf("%d\n",s.age);
+s.mark=10.7;
+printf("%f",s.mark);
+    return 0;
+}
